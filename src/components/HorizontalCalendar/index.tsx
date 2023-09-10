@@ -1,7 +1,6 @@
 import * as React from "react";
 import {
   DayPicker,
-  CaptionProps,
   DayContent,
   DayContentProps,
 } from "react-day-picker";
@@ -10,7 +9,7 @@ import { cn } from "../../lib/utils";
 
 export type HorizontalCalendarProps = React.ComponentProps<typeof DayPicker>;
 
-function CustomCaption(props: CaptionProps) {
+function CustomCaption() {
   return <></>;
 }
 function CustomDay(props: DayContentProps) {
