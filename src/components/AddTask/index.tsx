@@ -101,7 +101,7 @@ export default function AddTask({ type = "add", CloseComponent }: Props) {
           {type === "edit" ? "Edit Task" : "Add Task"}
         </span>
         <img
-          className="w-5 h-5 cursor-pointer hidden md:block"
+          className="w-5 h-5 cursor-pointer hidden lg:block"
           src={close}
           alt="close"
           onClick={() => setCurrentMenu("calendar")}
